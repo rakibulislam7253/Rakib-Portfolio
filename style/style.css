@@ -7,34 +7,35 @@ main {
     background-color: #0d1f1b;
 }
 
-h1{
+h1 {
     font-size: 50px;
     font-family: 'Outfit', sans-serif;
 }
 
 
-.navbar-brand{
-    color: #fac656!important;
+.navbar-brand {
+    color: #fac656 !important;
     font-weight: 700;
 }
 
 .home-content a {
-     color: #ffae00!important;
+    color: #ffae00 !important;
 }
+
 .home-content a:hover {
-     color: #ffffff!important;
+    color: #ffffff !important;
 }
 
 .carousel {
-margin-top: 100px;
+    margin-top: 100px;
 }
 
-span{
-    color: #fac656!important;
+span {
+    color: #fac656 !important;
     font-weight: 700;
 }
 
- .mu-title-dot {
+.mu-title-dot {
     border-radius: 50%;
     height: 8px;
     width: 8px;
@@ -44,7 +45,7 @@ span{
     position: relative;
 }
 
- .mu-title-dot::after {
+.mu-title-dot::after {
     content: '';
     position: absolute;
     background-color: rgb(253, 157, 1);
@@ -54,7 +55,7 @@ span{
     top: 2px;
 }
 
- .mu-title-dot::before {
+.mu-title-dot::before {
     content: '';
     position: absolute;
     background-color: rgb(253, 157, 1);
@@ -64,8 +65,8 @@ span{
     top: 2px;
 }
 
-#particles-js{
-   height: 30vh;
+#particles-js {
+    height: 30vh;
 
 }
 
@@ -73,11 +74,11 @@ span{
     background-image: url(/images/rakib.jpg);
     background-size: cover;
     height: 950px;
-    
+
 }
 
-#particles-js .right-content{
- margin-top: 20px;
+#particles-js .right-content {
+    margin-top: 20px;
 }
 
 section.linking {
@@ -86,7 +87,7 @@ section.linking {
 }
 
 
-nav .navbar{
+nav .navbar {
     border-radius: 10px;
 }
 
@@ -94,11 +95,12 @@ nav .navbar{
     text-align: center;
     margin: 50px 0px;
 }
-.heading-elements h2{
-        font-size: 45px;
-        font-weight: 700;
-        font-family: 'Outfit', sans-serif;
-        color: #ffffff;
+
+.heading-elements h2 {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    color: #ffffff;
 }
 
 .heading-elements p {
@@ -113,7 +115,7 @@ nav .navbar{
     font-family: 'Outfit', sans-serif;
 }
 
-#services img{
+#services img {
     padding-left: 55px;
 }
 
@@ -130,41 +132,47 @@ nav .navbar{
 }
 
 /* acordian style  */
-.accordion-body{
+.accordion-body {
     color: darkgray;
 }
 
 /* icos color  */
 
-.fa-facebook-square{
+.fa-facebook-square {
     color: #1877F2;
 }
 
-.fa-linkedin{
+.fa-linkedin {
     color: #0A66C2;
 }
-.fa-instagram-square{
+
+.fa-instagram-square {
     color: #E4405F;
 }
-.fa-twitter-square{
+
+.fa-twitter-square {
     color: #1DA1F2;
 }
-.fa-github-square{
+
+.fa-github-square {
     color: #000000;
 }
-.fa-map-marker{
+
+.fa-map-marker {
     border: 2px solid gold;
     border-radius: 20px;
     padding: 10px;
     margin-left: 48px;
 }
-.fa-envelope{
+
+.fa-envelope {
     border: 2px solid gold;
     border-radius: 20px;
     margin-left: 48px;
     padding: 10px;
 }
-.fa-phone-alt{
+
+.fa-phone-alt {
     border: 2px solid gold;
     border-radius: 20px;
     margin-left: 48px;
@@ -178,7 +186,7 @@ nav .navbar{
 
 
 /* skill section start  */
-#skills{
+#skills {
     margin-top: 150px;
     margin-bottom: 150px;
 }
@@ -186,42 +194,52 @@ nav .navbar{
 
 /* media qures */
 @media only screen and (max-device-width: 480px) {
-    .right-content{
-        margin-top: 30px!important;
+    .right-content {
+        margin-top: 30px !important;
         text-align: center;
     }
+
     .right-content h5 {
         font-size: 15px;
     }
-    .serviceImage{
+
+    .serviceImage {
         display: none;
     }
+
     #services .card {
         text-align: center;
     }
-    #services img{
+
+    #services img {
         padding-left: 0px;
     }
-    .accordion-body{
+
+    .accordion-body {
         text-align: left;
     }
-    .fa-map-marker{
+
+    .fa-map-marker {
         margin-left: 0px;
     }
-    .fa-envelope{
+
+    .fa-envelope {
         margin-left: 0px;
     }
-    .fa-phone-alt{
+
+    .fa-phone-alt {
         margin-left: 0px;
     }
+
     #contact-from {
         text-align: center;
     }
-    #contact-from strong{
+
+    #contact-from strong {
         font-size: large;
     }
 
-    #scrollTop i{
+    #scrollTop i {
         position: fixed;
         right: 20px;
         bottom: 20px;
@@ -229,8 +247,9 @@ nav .navbar{
         color: #ffffff;
         background-color: rgb(255, 119, 0);
     }
+
     .flex {
- 
+
         margin-top: 80px;
         /* width:380px; */
         font-family: 'Playfair Display', serif;
@@ -238,20 +257,22 @@ nav .navbar{
         animation: slid 2.5s ease-in-out 0.5s 1 alternate;
         animation-play-state: running;
     }
-    .flex img
-    {
-        display:none;
+
+    .flex img {
+        display: none;
     }
+
     .home-main {
         background-image: url(/images/rakib.jpg);
         background-size: cover;
         height: 750px;
-        
+
     }
-    #particles-js{
+
+    #particles-js {
         height: 15vh;
-     
-     }
+
+    }
 
     /* .header {
         background-image:none;
@@ -264,7 +285,7 @@ nav .navbar{
     } */
 }
 
-#scrollTop{
+#scrollTop {
     position: fixed;
     right: 50px;
     bottom: 50px;
@@ -272,7 +293,7 @@ nav .navbar{
     background-color: rgb(220, 103, 0);
 }
 
-footer{
+footer {
     background-image: url(/images/rakib.jpg);
     background-size: cover;
 }
@@ -298,7 +319,7 @@ footer{
     text-align: center;
     width: 120px;
     height: 120px;
-   margin-top: 40px;
+    margin-top: 40px;
     border-radius: 60%;
     box-shadow: 5px 10px 20px rgb(177, 181, 180);
     background-color: blue;
@@ -310,7 +331,7 @@ footer{
 }
 
 .flex {
- 
+
     margin-top: 280px;
     font-family: 'Playfair Display', serif;
     position: relative;
@@ -329,13 +350,14 @@ footer{
     font-weight: 500;
 }
 
-.downloadbtn{
-   
-   color: #faeb67;
-   text-decoration: none; 
-   font-size: 18px;
+.downloadbtn {
+
+    color: #faeb67;
+    text-decoration: none;
+    font-size: 18px;
 }
-.downloadbtn:hover{
+
+.downloadbtn:hover {
     color: black;
     font-weight: bolder;
 }
@@ -389,8 +411,25 @@ nav .navbar {
 
 
 
+.profile {
+    animation: slid1 2.5s ease-in-out 0.5s 1 alternate;
+    animation-play-state: running;
+    position: relative;
+    margin-left: -150px;
+    
+}
+
+@keyframes slid1 {
+    0% {
 
 
+        top: 0px;
+        left: -1050px;
+    }
 
 
-
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
