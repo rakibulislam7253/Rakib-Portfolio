@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #0d1f1b;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.navbar-brand{
+    color: #fac656!important;
+    font-weight: 700;
+}
+
+.home-content a {
+     color: #ffae00!important;
+}
+.home-content a:hover {
+     color: #ffffff!important;
+}
+
+.carousel {
+margin-top: 100px;
+}
+
+span{
+    color: #fac656!important;
+    font-weight: 700;
+}
+
+ .mu-title-dot {
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    background-color: rgb(253, 157, 1);
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+ .mu-title-dot::after {
+    content: '';
+    position: absolute;
+    background-color: rgb(253, 157, 1);
+    right: 15px;
+    height: 3px;
+    width: 50px;
+    top: 2px;
+}
+
+ .mu-title-dot::before {
+    content: '';
+    position: absolute;
+    background-color: rgb(253, 157, 1);
+    left: 15px;
+    height: 3px;
+    width: 50px;
+    top: 2px;
+}
+
+#particles-js{
+   height: 30vh;
+
+}
+
+.home-main {
+    background-image: url(/images/rakib.jpg);
+    background-size: cover;
+    height: 950px;
+    
+}
+
+#particles-js .right-content{
+ margin-top: 20px;
+}
+
+section.linking {
+    background-image: url(/images/home.jpg);
+    background-size: cover;
+}
+
+
+nav .navbar{
+    border-radius: 10px;
+}
+
+.heading-elements {
+    text-align: center;
+    margin: 50px 0px;
+}
+.heading-elements h2{
+        font-size: 45px;
+        font-weight: 700;
+        font-family: 'Outfit', sans-serif;
+        color: #ffffff;
+}
+
+.heading-elements p {
+    color: darkgray;
+    font-weight: 200;
+}
+
+#services .card-title {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+}
+
+#services img{
+    padding-left: 55px;
+}
+
+#services .card-text {
+    color: rgb(168, 167, 167);
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Outfit', sans-serif;
+}
+
+.serviceImage {
+    height: 400px;
+    margin-left: 150px;
+}
+
+/* acordian style  */
+.accordion-body{
+    color: darkgray;
+}
+
+/* icos color  */
+
+.fa-facebook-square{
+    color: #1877F2;
+}
+
+.fa-linkedin{
+    color: #0A66C2;
+}
+.fa-instagram-square{
+    color: #E4405F;
+}
+.fa-twitter-square{
+    color: #1DA1F2;
+}
+.fa-github-square{
+    color: #000000;
+}
+.fa-map-marker{
+    border: 2px solid gold;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 48px;
+}
+.fa-envelope{
+    border: 2px solid gold;
+    border-radius: 20px;
+    margin-left: 48px;
+    padding: 10px;
+}
+.fa-phone-alt{
+    border: 2px solid gold;
+    border-radius: 20px;
+    margin-left: 48px;
+    padding: 10px;
+}
+
+.detailes {
+    text-align: left;
+    margin-top: 100px;
+}
+
+
+/* skill section start  */
+#skills{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+
+/* media qures */
+@media only screen and (max-device-width: 480px) {
+    .right-content{
+        margin-top: 30px!important;
+        text-align: center;
+    }
+    .right-content h5 {
+        font-size: 15px;
+    }
+    .serviceImage{
+        display: none;
+    }
+    #services .card {
+        text-align: center;
+    }
+    #services img{
+        padding-left: 0px;
+    }
+    .accordion-body{
+        text-align: left;
+    }
+    .fa-map-marker{
+        margin-left: 0px;
+    }
+    .fa-envelope{
+        margin-left: 0px;
+    }
+    .fa-phone-alt{
+        margin-left: 0px;
+    }
+    #contact-from {
+        text-align: center;
+    }
+    #contact-from strong{
+        font-size: large;
+    }
+
+    #scrollTop i{
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        font-size: 7px;
+        color: #ffffff;
+        background-color: rgb(255, 119, 0);
+    }
+    .flex {
+ 
+        margin-top: 80px;
+        /* width:380px; */
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        animation: slid 2.5s ease-in-out 0.5s 1 alternate;
+        animation-play-state: running;
+    }
+    .flex img
+    {
+        display:none;
+    }
+    .home-main {
+        background-image: url(/images/rakib.jpg);
+        background-size: cover;
+        height: 750px;
+        
+    }
+    #particles-js{
+        height: 15vh;
+     
+     }
+
+    /* .header {
+        background-image:none;
+        background-size: none;
+        background-position: center center;
+    
+        -webkit-background-size: none;
+        height: 300px;
+    
+    } */
+}
+
+#scrollTop{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: #ffffff;
+    background-color: rgb(220, 103, 0);
+}
+
+footer{
+    background-image: url(/images/rakib.jpg);
+    background-size: cover;
+}
+
+
+/* new start */
+
+
+
+.header {
+    background-image: url(/images/rakib.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    -webkit-background-size: cover;
+    height: 600px;
+
+}
+
+
+.ball {
+    float: right;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+   margin-top: 40px;
+    border-radius: 60%;
+    box-shadow: 5px 10px 20px rgb(177, 181, 180);
+    background-color: blue;
+    position: relative;
+    background-image: url(/images/moon1-modified.png);
+    background-size: cover;
+    animation: sliding 2.5s ease-in-out 0.5s 1 alternate;
+    animation-play-state: running;
+}
+
+.flex {
+ 
+    margin-top: 280px;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    animation: slid 2.5s ease-in-out 0.5s 1 alternate;
+    animation-play-state: running;
+}
+
+.line {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.line1 {
+
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.downloadbtn{
+   
+   color: #faeb67;
+   text-decoration: none; 
+   font-size: 18px;
+}
+.downloadbtn:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    color: #fac656 !important;
+    font-weight: 700;
+}
+
+nav .navbar {
+    border-radius: 10px;
+}
+
+
+
+
+@keyframes sliding {
+    0% {
+
+        left: 0;
+        top: -250px;
+
+    }
+
+
+    100% {
+
+        left: 0px;
+        top: 0px;
+
+    }
+
+}
+
+
+@keyframes slid {
+    0% {
+
+
+        top: 0px;
+        right: -1050px;
+    }
+
+
+    100% {
+        top: 0px;
+        right: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
